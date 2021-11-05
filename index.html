@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    
+    <main>
+        <section>
+            <div class="capturar">
+                <label for="numero_rondas">
+                    numero de rondas
+                    <input type="text" name="numero_rondas" id="numero_rondas">
+                </label>
+                <label for="puntuacion_jugador1">
+                    puntuacion jugador 1
+                    <input type="text" name="puntuacion_jugador1" id="puntuacion_jugador1">
+                </label>
+                <label for="puntuacion_jugador2">
+                    puntuacion jugador 2
+                    <input type="text" name="puntuacion_jugador2" id="puntuacion_jugador2">
+                </label>
+                <button class="btn_agregar" name="agregar" id="agregar" onclick="capturar()">Agregar</button>
+            </div>
+        </section>
+
+        <section class="resultados">
+            <table class="table" id="mostrar_resultados">
+                <thead>
+                    <tr>
+                        <td>Ronda</td>
+                        <td>Jugador 1</td>
+                        <td>Jugador 2</td>
+                        <td>Lider</td>
+                        <td>Ventajas</td>
+                    </tr>
+                </thead>
+                
+            </table>
+        </section>
+
+        <section class="final" id="final"></section>
+        
+    </main>
+
+    <script src="index.js"></script>
+</body>
+</html>
