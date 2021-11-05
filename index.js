@@ -69,3 +69,14 @@ function registrarMarcador() {
         `;
     }
 }
+
+
+// $(document).ready(function() {
+//     $('#mostrar_resultados').DataTable(
+//         {
+//             "bPaginate": false,
+//             "bFilter": false,
+//             "bInfo": false
+//         }
+//     );
+// } );
